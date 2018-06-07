@@ -22,6 +22,7 @@ public class PlaceholdersSupportAllPropertiesApplication implements CommandLineR
         System.out.println("*******************************");
         System.out.println(myProps.prop1);
         System.out.println(myProps.prop2);
+        System.out.println(myProps.prop3);
         System.out.println("*******************************");
     }
 }

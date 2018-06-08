@@ -16,15 +16,6 @@ public class MyProps {
     String prop2;
     String prop3;
     String prop4;
-
-    public String getProp4() {
-        return prop4;
-    }
-
-    public void setProp4(String prop4) {
-        this.prop4 = prop4;
-    }
-
     public String getProp1() {
         return prop1;
     }
@@ -39,6 +30,14 @@ public class MyProps {
 
     public void setProp2(String prop2) {
         this.prop2 = prop2;
+    }
+
+    public String getProp4() {
+        return prop4;
+    }
+
+    public void setProp4(String prop4) {
+        this.prop4 = prop4;
     }
 
     public String getProp3() {

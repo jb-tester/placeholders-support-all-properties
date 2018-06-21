@@ -20,9 +20,13 @@ public class PlaceholdersSupportAllPropertiesApplication implements CommandLineR
     @Override
     public void run(String... args) throws Exception {
         System.out.println("*******************************");
-        System.out.println(myProps.prop1);
-        System.out.println(myProps.prop2);
-        System.out.println(myProps.prop3);
+        System.out.println(myProps.getProp1());
+        System.out.println(myProps.getProp2());
+        System.out.println(myProps.getProp3());
+        System.out.println(myProps.getProp4()[0]);
+        System.out.println(myProps.getProp4()[1]);
+        System.out.println(myProps.getProp5());
+        System.out.println(myProps.isProp6());
         System.out.println("*******************************");
     }
 }

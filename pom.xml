@@ -23,8 +23,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <locale>fr</locale>
         <java.version>1.8</java.version>
-        <resource.delimiter>${}</resource.delimiter>
-        <pom.prop1>property defined in pom.xml</pom.prop1>
+        <!--<resource.delimiter>@{*}</resource.delimiter>-->
+        <!--<resource.delimiter>${}</resource.delimiter>-->
+        <filter3.stringprop1>property defined in pom.xml</filter3.stringprop1>
     </properties>
 
     <dependencies>
@@ -54,8 +55,7 @@
         </plugins>
         <filters>
             <filter>src/main/filters/filter1.properties</filter>
-            <filter>src/main/resources/filter2_${locale}.properties</filter>
-
+            <filter>src/main/resources/filter2.properties</filter>
         </filters>
         <resources>
             <resource>

@@ -19,7 +19,7 @@ public class MyProps {
     int prop5;
     boolean prop6;
     MyEnum prop7;
-
+    String version;
     public MyEnum getProp7() {
         return prop7;
     }
@@ -74,5 +74,13 @@ public class MyProps {
 
     public void setProp3(String prop3) {
         this.prop3 = prop3;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
     }
 }
